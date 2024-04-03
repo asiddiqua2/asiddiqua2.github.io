@@ -9,13 +9,13 @@ body {
 }
 
 .container {
-  background-color: #333333; 
+  background-color: #333333;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   width: 100%;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .name {
@@ -34,8 +34,17 @@ h1 {
   margin-bottom: 20px;
 }
 
+.input-group p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.input-group p span {
+  margin: 0 5px;
+}
+
 .error-message {
-  color: #ff6666; 
+  color: #ff6666;
   font-size: 14px;
   margin-top: 5px;
 }
@@ -53,14 +62,14 @@ input[type="text"] {
   padding: 8px;
   border: 1px solid #cccccc;
   border-radius: 4px;
-  background-color: #ffffff; 
-  color: #333333; 
+  background-color: #ffffff;
+  color: #333333;
 }
 
 input[type="range"]:disabled,
 span[disabled] {
-  background-color: #666666; 
-  color: #cccccc; 
+  background-color: #666666;
+  color: #cccccc;
 }
 
 .result {
@@ -77,4 +86,5 @@ span[disabled] {
 
 .result p span {
   margin-left: 10px;
+  text-align: center;
 }
