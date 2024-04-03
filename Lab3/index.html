@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="name">ITMD521-Lab3-Amreen Siddiqua</div>
+    <h1>Tip Calculator</h1>
+    <form>
+      <div class="input-group">
+        <label for="billTotal">Bill Total:</label>
+        <input type="text" id="billTotal" placeholder="Enter bill amount">
+        <span id="billTotalError" class="error-message"></span>
+      </div>
+      <div class="input-group">
+        <label for="tipPercentage">Tip:</label>
+        <input type="range" id="tipPercentage" min="0" max="100" value="15">
+        <p>Tip Percentage: <span id="tipPercentageValue">15%</span></p>
+      </div>
+      <div class="result">
+        <p>Tip Amount: <span id="tipAmount" disabled>$0.00</span></p>
+        <p>Total Bill with Tip: <span id="totalBill" disabled>$0.00</span></p>
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
